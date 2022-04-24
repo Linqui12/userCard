@@ -13,7 +13,7 @@
 }
 .user {
   --img-size: 100px;
-  --main-bg-color: rgb(48, 168, 192);
+  --main-bg-color: rgb(0, 213, 255);
   display: inline-block;
   box-sizing: border-box;
   min-width: calc(var(--img-size) * 2);
@@ -21,7 +21,7 @@
   max-width: calc(var(--img-size) * 3.7);
   border: 1px solid var(--main-bg-color);
 }
-.user-wrapper{
+.user-wrap{
   margin:20px;
 }
 .user-bgheader {
@@ -68,7 +68,7 @@
 
 }
 .btn--follow {
-  background-color: rgb(81 170 75);
+  background-color: rgb(30, 185, 19);
 }
 .btn--send {
   background-color: var(--main-bg-color)
