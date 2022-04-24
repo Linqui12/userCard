@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+.cards {
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.title-container{
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.user {
+  --img-size: 100px;
+  --main-bg-color: rgb(48, 168, 192);
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: calc(var(--img-size) * 2);
+  width: 100%;
+  max-width: calc(var(--img-size) * 3.7);
+  border: 1px solid var(--main-bg-color);
+}
+.user-wrapper{
+  margin:20px;
+}
+.user-bgheader {
+  height: calc(var(--img-size) * 1.4);
+  background-color: var(--main-bg-color);
+}
+.user-content {
+  padding: 0 30px;
+}
+.user-address {
+  margin-top: 10px;
+  font-size: 0.75em;
+}
+.avatar-img {
+  width: var(--img-size);
+  height: var(--img-size);
+  padding: 5px;
+  margin-top: calc(var(--img-size) * -0.5);
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  background-color: white;
+}
+.user-fullname {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.user-actions {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.btn {
+  padding: 0.5em;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 0.6em;
+
+}
+.btn--follow {
+  background-color: rgb(81 170 75);
+}
+.btn--send {
+  background-color: var(--main-bg-color)
+}
+.user-description {
+  margin-bottom: 30px;
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+.user-footer {
+  display: block;
+  background-color: var(--main-bg-color);
+  padding: 15px;
+}
+.social-item {
+  display: inline-block;
+}
+.social-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.icon-fb {
+  background-image: url(./../icons/facebook.png);
+}
+.icon-google {
+  background-image: url(./../icons/google-plus.png);
+}
+.icon-twitter {
+  background-image: url(./../icons/twitter.png);
+}
